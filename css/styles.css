@@ -109,12 +109,13 @@ aside {
 footer {
     padding: 45px;
     padding-top: 40px;
-    background-color: #e0e0e3;
+    background-color: #212121;
 }
 
 footer h4, footer h6 {
     color:#fff;
 }
+footer a: {color:#fff;}
 
 .navbar-default {
     border-color: rgba(35,35,35,.05);
@@ -122,6 +123,7 @@ footer h4, footer h6 {
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
+    border-bottom:#e0e0e3;
 }
 
 .navbar-brand {
